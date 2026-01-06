@@ -15,7 +15,7 @@ nav.navbar.navbar-expand-lg {
 }
 .nav-link {
   font-family: "Exo", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   color: #ffffff;
   font-weight: 500;
   margin-left: 15px;
@@ -245,11 +245,18 @@ span.count {
   .nav-link {
     font-size: 16px;
   }
+  .visit-btn {
+    border: 1.5px solid #787878;
+    width: 35px;
+    height: 35px;
+    line-height: 1;
+  }
   span.count {
     font-size: 80px;
   }
-}
-@media (max-width: 1399px) {
+  .dlivered {
+    font-size: 16px;
+  }
   .title-f {
     font-size: 16px;
   }
@@ -263,11 +270,13 @@ span.count {
     line-height: 1.6;
     margin-bottom: 1.5rem;
   }
-  .visit-btn {
-    border: 1.5px solid #787878;
-    width: 35px;
-    height: 35px;
-    line-height: 1;
+  .feat-c p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1399px) {
+  .hero-slide h1 {
+    font-size: 2.3rem;
   }
   .we-serv-count {
     border-top: 1px solid #e9e9e9;
@@ -288,6 +297,9 @@ span.count {
   .we-text-content {
     width: 85%;
   }
+  .hero-slide h1 {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 991px) {
   .nav-link {
@@ -306,7 +318,7 @@ span.count {
     background-color: #151515;
   }
   .hero-slide h1 {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
   }
   .we-text-img-wrap {
     flex-direction: column;
@@ -322,7 +334,7 @@ span.count {
 }
 @media (max-width: 767px) {
   .hero-slide h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .title-f {
     font-size: 14px;
